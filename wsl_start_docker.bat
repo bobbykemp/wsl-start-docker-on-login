@@ -1,5 +1,3 @@
-##Start Docker in WSL on Windows Login
+@echo off
 
-```cmd
 wsl.exe -u root -e sh -c "service docker status || service docker start"
-```
